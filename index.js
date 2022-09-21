@@ -9,7 +9,7 @@ let imageSection = document.getElementById('show-image')
 let position;
 const aplanet = ['Mercury', 'Venus', 'Earth', 'Mars', 'Jupiter', 'Saturn', 'Uranus', 'Neptune']
 const agravity = [0.38, 0.91, 1, 0.38, 2.34, 1.06, 0.92, 1.19, 0.06, 16.6]
-const images = ['mercury', 'venus', 'earth', 'mars', 'jupiter', 'saturn', 'uranus', 'neptune']
+const images = ['Mercury', 'Venus', 'Earth', 'Mars', 'Jupiter', 'Saturn', 'Uranus', 'Neptune']
 
 planetForm.addEventListener('change', function () {
     planet = this.value;
